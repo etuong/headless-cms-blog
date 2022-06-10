@@ -16,11 +16,11 @@ const SiteHeader = (props) => {
       {props.showFilter && <nav className="categories">
         <span>Filter reviews by category:</span>
 
-        {/* {data.map(category =>
+        {data.map(category =>
         (<Link key={category.id} to={`/category/${category.id}`}>
           {category.attributes.name}
         </Link>)
-        )} */}
+        )}
       </nav>}
 
     </div>

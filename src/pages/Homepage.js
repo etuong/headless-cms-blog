@@ -23,7 +23,9 @@ export default function Homepage() {
               <img src={`${URL}${review.attributes.image.data.attributes.url}`} alt="card__image" className="card__image" width="600" />
             </div>
             <div className="card__body">
-              <span className="tag tag-blue">Technology</span>
+              <div>
+                {review.attributes.categories.data.map((category, index) => <span key={index} className="tag tag-red">{category.attributes.name}</span>)}
+              </div>
               <h4>{review.attributes.title}</h4>
               <p>{review.attributes.body.substring(0, 200)}...</p>
               <Link to={`/details/${review.id}`}>Read more</Link>
@@ -37,7 +39,6 @@ export default function Homepage() {
                 </div>
               </div>
             </div>
-
           </div>))}
       </div>
     </React.Fragment>

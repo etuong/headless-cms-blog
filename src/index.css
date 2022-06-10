@@ -38,6 +38,17 @@ img {
   object-fit: cover;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
 .card {
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
@@ -115,12 +126,6 @@ img {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: #8e2ad6;
-  border-bottom: 1px dotted;
 }
 
 .site-header h1 {
