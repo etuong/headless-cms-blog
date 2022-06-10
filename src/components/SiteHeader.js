@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
 
-const SiteHeader = (props) => {
+const SiteHeader = () => {
 
   const { loading, error, data } = useFetch(`http://localhost:1337/api/categories`)
 
@@ -13,7 +13,7 @@ const SiteHeader = (props) => {
     <div className="site-header">
       <Link to="/"><h1>Learn Strapi With Ethan</h1></Link>
 
-      {props.showFilter && <nav className="categories">
+      {<nav className="categories">
         <span>Filter reviews by category:</span>
 
         {data.map(category =>

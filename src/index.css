@@ -18,7 +18,7 @@ body {
   display: grid;
   place-items: center;
   background: #7f7fd5;
-  background: linear-gradient(to right, #556270,#FF6B6B);
+  background: linear-gradient(to right, #556270, #FF6B6B);
 }
 
 #root {
@@ -93,6 +93,10 @@ a:hover {
   background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   color: #fafafa;
+}
+
+.card__header img {
+  height: 250px;
 }
 
 .card__body h4 {
