@@ -27,9 +27,12 @@ npx create-strapi-app my-project --quickstart
 
 ### Procedure
 1. Run Strapi and create collection types (review, category, comment)
+1. Review has {title, body, image, avatar, author} and relationships with {category, comment}
+1. Comment has {author, message} and has relationships with {review}
+1. Category has {name} and ahs relationship with {review}
 1. Create multiple entries for blogging
 1. Run this app `npm run start`
 
 
-
+That is it! Everything is taken care. When you post a comment, the app will create the comment entry on Strapi.
 
