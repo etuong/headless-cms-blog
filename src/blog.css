@@ -212,11 +212,12 @@ input[type="submit"]:hover {
 
 .entry-meta {
     color: #9e9e9e;
-    margin: 20px 0 30px;
+    margin: 15px 0px;
 }
 
-.entry-meta:hover {
-    color: #F4511E;
+.entry-meta .ratings {
+    display: inline-block;
+    font-size: 25px;
 }
 
 .media-heading {

@@ -57,9 +57,13 @@ export default function ReviewDetails() {
         <h1>{data.attributes.title}</h1>
 
         <div className="entry-meta">
-          <span className="date"><i className="fa fa-fw fa-clock-o"></i>{`${new Date(data.attributes.updatedAt)}`}</span>
+          <span><i className="fa fa-fw fa-clock"></i>{`${new Date(data.attributes.updatedAt)}`}</span>
           <span className="divider">|</span>
-          <span className="autor"><i className="fa fa-fw fa-user"></i>{data.attributes.author}</span>
+          <span><i className="fa fa-fw fa-user"></i>{data.attributes.author}</span>
+        </div>
+
+        <div className="entry-meta">
+          Rating: <my-rating-component maxstars="10" rating={data.attributes.rating} color="red" class="ratings"></my-rating-component>
         </div>
 
         <ReactMarkdown>{data.attributes.body}</ReactMarkdown>
