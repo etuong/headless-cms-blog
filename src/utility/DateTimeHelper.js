@@ -1,3 +1,3 @@
 export const getDateFromISO = (isoTimestamp) => {
-    return new Date(isoTimestamp).toLocaleString().split(',')[0]
-}
+  return new Date(isoTimestamp).toLocaleString().split(",")[0];
+};

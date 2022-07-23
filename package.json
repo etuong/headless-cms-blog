@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://etuong.github.io/headless-cms-blog/"
+  "homepage": "https://etuong.github.io/headless-cms-blog/",
+  "devDependencies": {
+    "@types/react": "^18.0.15"
+  }
 }

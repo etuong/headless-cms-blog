@@ -1,9 +1,10 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Homepage from './pages/Homepage'
-import ReviewDetails from './pages/ReviewDetails'
-import Category from './pages/Category'
-import SiteHeader from './components/SiteHeader';
+import Home from "./pages/Home";
+import ReviewDetails from "./pages/ReviewDetails";
+import Category from "./pages/Category";
+import SiteHeader from "./components/SiteHeader";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   const routerBaseName = process.env.PUBLIC_URL;
@@ -14,7 +15,10 @@ function App() {
         <SiteHeader />
         <Switch>
           <Route exact path="/">
-            <Homepage />
+            <Home />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
           </Route>
           <Route path="/details/:id">
             <ReviewDetails />
@@ -28,4 +32,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
