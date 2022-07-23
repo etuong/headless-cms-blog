@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/headless-cms-blog/static/css/main.d1d282f0.chunk.css",
+    "main.js": "/headless-cms-blog/static/js/main.b98d9b6b.chunk.js",
+    "main.js.map": "/headless-cms-blog/static/js/main.b98d9b6b.chunk.js.map",
+    "polyfills-dom.js": "/headless-cms-blog/static/js/polyfills-dom.3d608496.chunk.js",
+    "polyfills-dom.js.map": "/headless-cms-blog/static/js/polyfills-dom.3d608496.chunk.js.map",
+    "runtime-main.js": "/headless-cms-blog/static/js/runtime-main.0c387164.js",
+    "runtime-main.js.map": "/headless-cms-blog/static/js/runtime-main.0c387164.js.map",
+    "static/js/3.8142504a.chunk.js": "/headless-cms-blog/static/js/3.8142504a.chunk.js",
+    "static/js/3.8142504a.chunk.js.map": "/headless-cms-blog/static/js/3.8142504a.chunk.js.map",
+    "static/js/4.d8bfd1ec.chunk.js": "/headless-cms-blog/static/js/4.d8bfd1ec.chunk.js",
+    "static/js/4.d8bfd1ec.chunk.js.map": "/headless-cms-blog/static/js/4.d8bfd1ec.chunk.js.map",
+    "static/js/5.f8f4ad1c.chunk.js": "/headless-cms-blog/static/js/5.f8f4ad1c.chunk.js",
+    "static/js/5.f8f4ad1c.chunk.js.map": "/headless-cms-blog/static/js/5.f8f4ad1c.chunk.js.map",
+    "index.html": "/headless-cms-blog/index.html",
+    "static/css/main.d1d282f0.chunk.css.map": "/headless-cms-blog/static/css/main.d1d282f0.chunk.css.map",
+    "static/js/3.8142504a.chunk.js.LICENSE.txt": "/headless-cms-blog/static/js/3.8142504a.chunk.js.LICENSE.txt",
+    "static/js/polyfills-dom.3d608496.chunk.js.LICENSE.txt": "/headless-cms-blog/static/js/polyfills-dom.3d608496.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c387164.js",
+    "static/js/3.8142504a.chunk.js",
+    "static/css/main.d1d282f0.chunk.css",
+    "static/js/main.b98d9b6b.chunk.js"
+  ]
+}
