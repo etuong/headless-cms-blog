@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import Dashboard from "../components/Dashboard"
 import useFetch from '../hooks/useFetch'
+import { URL } from '../utility/Constants';
 
 export default function Category() {
   const qs = require('qs');
@@ -16,7 +17,7 @@ export default function Category() {
 
   const { id } = useParams()
 
-  const { loading, error, data } = useFetch(`http://localhost:1337/api/categories/${id}?${query}`)
+  const { loading, error, data } = useFetch(`${URL}/api/categories/${id}?${query}`)
 
   if (loading) return <p>Loading...</p>
 

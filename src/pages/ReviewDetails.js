@@ -50,7 +50,7 @@ export default function ReviewDetails() {
     <div className="content-area">
 
       <div className="blog-post-main-image">
-        <img className="post-image img-responsive" src={`${URL}${data.attributes.image.data.attributes.url}`} />
+        <img className="post-image img-responsive" src={`${data.attributes.image.data.attributes.url}`} />
       </div>
 
       <div className="blog-post-content">

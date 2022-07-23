@@ -4,7 +4,9 @@
 
 This repo works in conjunction with Strapi to create a full stack blogging website. Please have a basic understand of Strapi before you get started. https://strapi.io/
 
-Strapi is a headless CMS. If the body is the server and the head is the client, think of chopping off the head and you're left with just the backend. Strapi is useful to rapidly create artifacts and assets in a content registry that can easily be pulled using RESTful API or GraphQL. In this repo, I built a React UI that interacts with Strapi.
+This is my own [Strapi server](https://ethan-strapi.herokuapp.com/admin) that I built for this frontend client.
+
+Strapi is a headless CMS. If the body is the server and the head is the client, think of chopping off the head and you're left with just the backend. Strapi is useful to rapidly create artifacts and assets in a content registry that can easily be pulled using RESTful API or GraphQL. In this repo, I built a [React UI](https://etuong.github.io/headless-cms-blog/) that interacts with Strapi.
 
 
 ### ⏳ Installation (from the Strapi Github page)

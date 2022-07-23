@@ -6,8 +6,10 @@ import Category from './pages/Category'
 import SiteHeader from './components/SiteHeader';
 
 function App() {
+  const routerBaseName = process.env.PUBLIC_URL;
+
   return (
-    <Router>
+    <Router basename={routerBaseName}>
       <div className="App">
         <SiteHeader />
         <Switch>

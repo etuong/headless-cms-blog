@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
+import { URL } from '../utility/Constants';
 
 const SiteHeader = () => {
 
-  const { loading, error, data } = useFetch(`http://localhost:1337/api/categories`)
+  const { loading, error, data } = useFetch(`${URL}/api/categories`)
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error :(</p>
