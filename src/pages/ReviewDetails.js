@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import { URL } from "../utility/Constants";
@@ -83,14 +82,14 @@ export default function ReviewDetails() {
           ></my-rating-component>
         </div>
 
-        <ReactMarkdown>{data.attributes.body}</ReactMarkdown>
+        <div dangerouslySetInnerHTML={{ __html: data.attributes.body }} />
 
         <div className="post-comments">
           <div className="block-title">
             <h3>Comments ({comments.length})</h3>
           </div>
 
-          {comments.map((comment, index) => (
+          {comments?.map((comment, index) => (
             <div key={index} className="media">
               <div className="media-body">
                 <div className="media-heading">

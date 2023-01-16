@@ -4,7 +4,7 @@
 
 This repo works in conjunction with Strapi to create a full stack blogging website. Please have a basic understand of Strapi before you get started. https://strapi.io/
 
-This is my own [Strapi server](https://ethan-strapi.herokuapp.com/admin) that I built for this frontend client. You may use my dummy credentials to log in the console.
+This is my own [Strapi server](https://strapi-blogging-server.onrender.com/admin) that I built for this frontend client. You may use my dummy credentials to log in the console.
 
 ```
 Email: email@email.com

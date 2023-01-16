@@ -29,7 +29,7 @@ export default function Home() {
       <p>
         You can create blogging contents on my &nbsp;
         <a
-          href="https://ethan-strapi.herokuapp.com/admin/"
+          href="https://strapi-blogging-server.onrender.com/admin/"
           target="_blank"
           rel="noreferrer"
         >

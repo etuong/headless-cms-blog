@@ -5,7 +5,7 @@ const Viewport = (props) => {
   return (
     <div className="container">
       {props.data &&
-        props.data.map((review) => (
+        props.data?.map((review) => (
           <div key={review.id} className="card">
             <div className="card__header">
               <img
@@ -15,7 +15,7 @@ const Viewport = (props) => {
             </div>
             <div className="card__body">
               <div>
-                {review.attributes.categories.data.map((category, index) => (
+                {review.attributes.categories.data?.map((category, index) => (
                   <span key={index} className="tag tag-red">
                     {category.attributes.name}
                   </span>
